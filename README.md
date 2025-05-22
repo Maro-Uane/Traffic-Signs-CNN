@@ -6,9 +6,15 @@ A trained deep learning model for classifying 43 traffic sign categories
 
 Real-time detection using Raspberry Pi with camera module
 
+![Demo](images/predictions.png)
+
 Hardware integration to control DC motors and LED indicators
 
+![Demo](images/project.jpg)
+
 Desktop GUI for testing and validation
+
+![Demo](images/GUI.jpg)
 
 File Structure
 
