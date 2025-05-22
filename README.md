@@ -16,23 +16,23 @@ Desktop GUI for testing and validation
 
 ![Demo](images/GUI.jpg)
 
-File Structure
+### File Structure
 
-├── GTSRB_CNN.ipynb            # Jupyter notebook for model training
-
-├── interface/                 # GUI application code (Tkinter)
-
-├── model_trained_epoch30.p    # Pretrained model weights
-
-├── traffic_classifiernew.h5   # model file
-
-├── cameraPC.py                # Script for PC camera testing
-
-├── rpiCam.py                  # Script for Raspberry Pi camera
-
-├── predictions/               # Sample prediction outputs of rpi camera
-
-└── Test_images/               # Test images for the GUI
+├── GTSRB_CNN.ipynb							# Jupyter notebook for model training  
+├── model/                   		# Model files  
+│   ├── model_trained_epoch30.p  	# Pretrained model weights  
+│   └── traffic_classifiernew.h5 	# Alternative model file  
+├── interface/               		# GUI application  
+├── scripts/                 		# Camera testing scripts  
+│   ├── cameraPC.py      		     # PC camera testing  
+│   └── rpiCam.py					 		   # Raspberry Pi camera  
+├── images/                		  # Visual assets  
+│   ├── GUI.jpg               	 # GUI screenshot  
+│   ├── project.jpg           	 # Project setup photo  
+│   └── predictions.png       	 # Sample output  
+├── Test_images/               # Test images for GUI  
+├── predictions/               # RPi camera prediction outputs  
+└── README.md                  # Project documentation  
 
 Hardware Requirements (for RPi implementation)
 
