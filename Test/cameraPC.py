@@ -16,7 +16,7 @@ cap.set(4, frameHeight)
 cap.set(10, brightness)
 
 # Load trained model
-pickle_in = open("model_trained_epoch30.p", "rb")
+pickle_in = open("../model/model_trained_epoch30.p", "rb")
 model = pickle.load(pickle_in)
 
 def grayscale(img):

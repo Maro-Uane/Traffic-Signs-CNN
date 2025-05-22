@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 import os
 
 # === Chargement du modèle entraîné ===
-model = load_model("traffic_classifiernew.h5")
+model = load_model("../model/traffic_classifiernew.h5")
 
 # === Dictionnaire des classes GTSRB ===
 classes = {

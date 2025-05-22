@@ -66,7 +66,7 @@ def led_off():
     GPIO.output(LED_PIN, GPIO.LOW)
 
 # Load the model
-model = load_model('modele_panneaux.h5')
+model = load_model('../model/modele_panneaux.h5')
 
 IMG_HEIGHT, IMG_WIDTH = 30, 30
 
