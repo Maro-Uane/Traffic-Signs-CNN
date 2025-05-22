@@ -11,13 +11,21 @@ Hardware integration to control DC motors and LED indicators
 Desktop GUI for testing and validation
 
 File Structure
+
 ├── GTSRB_CNN.ipynb            # Jupyter notebook for model training
+
 ├── interface/                 # GUI application code (Tkinter)
+
 ├── model_trained_epoch30.p    # Pretrained model weights
+
 ├── traffic_classifiernew.h5   # model file
+
 ├── cameraPC.py                # Script for PC camera testing
+
 ├── rpiCam.py                  # Script for Raspberry Pi camera
+
 ├── predictions/               # Sample prediction outputs of rpi camera
+
 └── Test_images/               # Test images for the GUI
 
 Hardware Requirements (for RPi implementation)
